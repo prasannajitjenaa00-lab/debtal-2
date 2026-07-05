@@ -50,6 +50,18 @@ export function AppointmentSection({
   });
   const onSubmit = e => {
     e.preventDefault();
+    const messageText = `Hello Doctor, I would like to book an appointment at The ODontologist - Smile Makers.
+
+Name: ${form.name}
+Phone: ${form.phone}
+Email: ${form.email || "N/A"}
+Treatment: ${form.treatment}
+Preferred Date: ${form.date}
+Message: ${form.message || "N/A"}`;
+
+    const whatsappUrl = `https://wa.me/916804056220?text=${encodeURIComponent(messageText)}`;
+    window.open(whatsappUrl, "_blank");
+
     setSuccess(true);
     setForm({
       name: "",
@@ -149,11 +161,11 @@ export function Footer() {
   return <footer className="bg-foreground text-background pt-16 pb-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
-          <div className="flex items-center gap-3 font-bold text-xl">
-            <img src="/logo dr chinmay.png" alt="The ODontologist - Smile Makers" className="h-10 w-auto object-contain bg-white rounded-xl p-1" />
-            <div className="leading-tight text-white font-extrabold text-base text-left">
+          <div className="flex items-center gap-3.5 font-bold text-xl">
+            <img src="/logo dr chinmay.png" alt="The ODontologist - Smile Makers" className="h-16 w-auto object-contain bg-white rounded-2xl p-1.5" />
+            <div className="leading-tight text-white font-extrabold text-lg text-left">
               The <span className="text-gradient">ODontologist</span>
-              <span className="block text-[8px] tracking-wider text-white/60 font-semibold mt-0.5">SMILE MAKERS</span>
+              <span className="block text-[10px] tracking-wider text-white/60 font-semibold mt-0.5">SMILE MAKERS</span>
             </div>
           </div>
           <p className="mt-4 text-background/70 text-sm">

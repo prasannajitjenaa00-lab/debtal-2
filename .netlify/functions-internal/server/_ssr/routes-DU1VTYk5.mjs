@@ -5,7 +5,7 @@ import { a as AnimatePresence, i as motion, n as useSpring, r as useScroll, t as
 import { t as require_aos } from "../_libs/aos.mjs";
 import { i as SwiperSlide, n as Pagination, r as Swiper, t as Autoplay } from "../_libs/swiper.mjs";
 import { t as Lightbox } from "../_libs/yet-another-react-lightbox.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-E73DRpl1.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-DU1VTYk5.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
@@ -389,21 +389,21 @@ function Navbar({ onBook }) {
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 						href: "#home",
-						className: "flex items-center gap-2.5 font-bold text-lg shrink-0",
+						className: "flex items-center gap-3 font-bold text-lg shrink-0",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: "/logo dr chinmay.png",
 							alt: "The ODontologist - Smile Makers",
-							className: "h-10 w-auto object-contain"
+							className: "h-14 w-auto object-contain"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 							className: "hidden sm:block leading-none text-left",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-								className: "block text-sm font-extrabold text-foreground",
+								className: "block text-base font-extrabold text-foreground",
 								children: ["The ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "text-gradient",
 									children: "ODontologist"
 								})]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-								className: "block text-[8px] tracking-wider text-muted-foreground font-semibold mt-0.5",
+								className: "block text-[9px] tracking-wider text-muted-foreground font-semibold mt-0.5",
 								children: "SMILE MAKERS"
 							})]
 						})]
@@ -1550,6 +1550,16 @@ function AppointmentSection({ formRef }) {
 	});
 	const onSubmit = (e) => {
 		e.preventDefault();
+		const messageText = `Hello Doctor, I would like to book an appointment at The ODontologist - Smile Makers.
+
+Name: ${form.name}
+Phone: ${form.phone}
+Email: ${form.email || "N/A"}
+Treatment: ${form.treatment}
+Preferred Date: ${form.date}
+Message: ${form.message || "N/A"}`;
+		const whatsappUrl = `https://wa.me/916804056220?text=${encodeURIComponent(messageText)}`;
+		window.open(whatsappUrl, "_blank");
 		setSuccess(true);
 		setForm({
 			name: "",
@@ -1725,13 +1735,13 @@ function Footer() {
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "flex items-center gap-3 font-bold text-xl",
+						className: "flex items-center gap-3.5 font-bold text-xl",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: "/logo dr chinmay.png",
 							alt: "The ODontologist - Smile Makers",
-							className: "h-10 w-auto object-contain bg-white rounded-xl p-1"
+							className: "h-16 w-auto object-contain bg-white rounded-2xl p-1.5"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "leading-tight text-white font-extrabold text-base text-left",
+							className: "leading-tight text-white font-extrabold text-lg text-left",
 							children: [
 								"The ",
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
@@ -1739,7 +1749,7 @@ function Footer() {
 									children: "ODontologist"
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "block text-[8px] tracking-wider text-white/60 font-semibold mt-0.5",
+									className: "block text-[10px] tracking-wider text-white/60 font-semibold mt-0.5",
 									children: "SMILE MAKERS"
 								})
 							]

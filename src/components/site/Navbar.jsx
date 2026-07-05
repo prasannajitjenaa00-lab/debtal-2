@@ -26,11 +26,11 @@ export function Navbar({
   }} className={`sticky top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-background/85 backdrop-blur-md shadow-soft border-b border-border/60" : "bg-transparent"}`}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-18 items-center justify-between py-3">
-          <a href="#home" className="flex items-center gap-2.5 font-bold text-lg shrink-0">
-            <img src="/logo dr chinmay.png" alt="The ODontologist - Smile Makers" className="h-10 w-auto object-contain" />
+          <a href="#home" className="flex items-center gap-3 font-bold text-lg shrink-0">
+            <img src="/logo dr chinmay.png" alt="The ODontologist - Smile Makers" className="h-14 w-auto object-contain" />
             <span className="hidden sm:block leading-none text-left">
-              <span className="block text-sm font-extrabold text-foreground">The <span className="text-gradient">ODontologist</span></span>
-              <span className="block text-[8px] tracking-wider text-muted-foreground font-semibold mt-0.5">SMILE MAKERS</span>
+              <span className="block text-base font-extrabold text-foreground">The <span className="text-gradient">ODontologist</span></span>
+              <span className="block text-[9px] tracking-wider text-muted-foreground font-semibold mt-0.5">SMILE MAKERS</span>
             </span>
           </a>
 
