@@ -1,0 +1,134 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+@import "aos/dist/aos.css";
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+@import "yet-another-react-lightbox/styles.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-teal: var(--teal);
+  --color-medblue: var(--medblue);
+  --color-medblue-dark: var(--medblue-dark);
+  --color-softgray: var(--softgray);
+  --shadow-soft: 0 10px 40px -12px color-mix(in oklab, var(--medblue) 22%, transparent);
+  --shadow-card: 0 4px 24px -6px oklch(0.7 0.02 260 / 0.15);
+}
+
+:root {
+  --radius: 1rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.27 0.04 258); /* #1E293B */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.27 0.04 258);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.27 0.04 258);
+  --primary: oklch(0.7 0.15 230); /* #0EA5E9 medical blue */
+  --primary-foreground: oklch(1 0 0);
+  --medblue: oklch(0.7 0.15 230);
+  --medblue-dark: oklch(0.58 0.15 232);
+  --teal: oklch(0.72 0.12 180); /* #14B8A6 */
+  --softgray: oklch(0.98 0.005 250); /* #F8FAFC */
+  --secondary: oklch(0.98 0.005 250);
+  --secondary-foreground: oklch(0.27 0.04 258);
+  --muted: oklch(0.98 0.005 250);
+  --muted-foreground: oklch(0.5 0.03 258);
+  --accent: oklch(0.72 0.12 180);
+  --accent-foreground: oklch(1 0 0);
+  --destructive: oklch(0.62 0.22 27);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.92 0.01 250);
+  --input: oklch(0.92 0.01 250);
+  --ring: oklch(0.7 0.15 230);
+}
+
+.dark {
+  --background: oklch(0.18 0.03 258);
+  --foreground: oklch(0.98 0.005 250);
+  --card: oklch(0.24 0.035 258);
+  --card-foreground: oklch(0.98 0.005 250);
+  --popover: oklch(0.24 0.035 258);
+  --popover-foreground: oklch(0.98 0.005 250);
+  --primary: oklch(0.75 0.15 230);
+  --primary-foreground: oklch(0.18 0.03 258);
+  --medblue: oklch(0.75 0.15 230);
+  --medblue-dark: oklch(0.6 0.15 232);
+  --teal: oklch(0.75 0.13 180);
+  --softgray: oklch(0.24 0.035 258);
+  --secondary: oklch(0.28 0.035 258);
+  --secondary-foreground: oklch(0.98 0.005 250);
+  --muted: oklch(0.28 0.035 258);
+  --muted-foreground: oklch(0.72 0.02 258);
+  --accent: oklch(0.75 0.13 180);
+  --accent-foreground: oklch(0.18 0.03 258);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.75 0.15 230);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@utility gradient-hero {
+  background: linear-gradient(
+    135deg,
+    color-mix(in oklab, var(--medblue) 12%, white) 0%,
+    color-mix(in oklab, var(--teal) 8%, white) 100%
+  );
+}
+
+.dark .gradient-hero {
+  background: linear-gradient(
+    135deg,
+    color-mix(in oklab, var(--medblue) 20%, var(--background)) 0%,
+    color-mix(in oklab, var(--teal) 15%, var(--background)) 100%
+  );
+}
+
+@utility text-gradient {
+  background: linear-gradient(135deg, var(--medblue), var(--teal));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
