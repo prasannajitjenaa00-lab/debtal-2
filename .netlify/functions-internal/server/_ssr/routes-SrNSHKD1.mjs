@@ -5,7 +5,7 @@ import { a as AnimatePresence, i as motion, n as useSpring, r as useScroll, t as
 import { t as require_aos } from "../_libs/aos.mjs";
 import { i as SwiperSlide, n as Pagination, r as Swiper, t as Autoplay } from "../_libs/swiper.mjs";
 import { t as Lightbox } from "../_libs/yet-another-react-lightbox.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-DU1VTYk5.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-SrNSHKD1.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
@@ -381,7 +381,7 @@ function Navbar({ onBook }) {
 		initial: { y: -80 },
 		animate: { y: 0 },
 		transition: { duration: .5 },
-		className: `sticky top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-background/85 backdrop-blur-md shadow-soft border-b border-border/60" : "bg-transparent"}`,
+		className: `sticky top-0 left-0 right-0 z-50 transition-colors duration-300 ${scrolled ? "bg-background/85 backdrop-blur-md shadow-soft border-b border-border/60" : "bg-transparent"}`,
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
