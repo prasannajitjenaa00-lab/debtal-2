@@ -275,4 +275,4 @@ export const navLinks = [{
   label: "Contact",
   href: "#contact"
 }];
-export const WHATSAPP_URL = "https://wa.me/916804056220?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment.";
+export const WHATSAPP_URL = "https://wa.me/918018517617?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment.";

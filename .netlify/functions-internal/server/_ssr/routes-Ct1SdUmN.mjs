@@ -5,7 +5,7 @@ import { a as AnimatePresence, i as motion, n as useSpring, r as useScroll, t as
 import { t as require_aos } from "../_libs/aos.mjs";
 import { i as SwiperSlide, n as Pagination, r as Swiper, t as Autoplay } from "../_libs/swiper.mjs";
 import { t as Lightbox } from "../_libs/yet-another-react-lightbox.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-SrNSHKD1.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-Ct1SdUmN.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
@@ -363,7 +363,7 @@ var navLinks = [
 		href: "#contact"
 	}
 ];
-var WHATSAPP_URL = "https://wa.me/916804056220?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment.";
+var WHATSAPP_URL = "https://wa.me/918018517617?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment.";
 function Navbar({ onBook }) {
 	const [open, setOpen] = (0, import_react.useState)(false);
 	const [scrolled, setScrolled] = (0, import_react.useState)(false);
@@ -537,9 +537,9 @@ function AnnouncementBar() {
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "flex items-center gap-5 flex-wrap",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-					href: "tel:06804056220",
+					href: "tel:8018517617",
 					className: "inline-flex items-center gap-1.5 font-medium hover:underline",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FaPhoneAlt, { className: "text-[10px] opacity-80" }), "0680-4056220"]
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FaPhoneAlt, { className: "text-[10px] opacity-80" }), "+91 80185 17617"]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 					className: "hidden sm:inline-flex items-center gap-1.5 opacity-90",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FaClock, { className: "text-[10px]" }), "Mon – Sat: 9AM – 9PM"]
@@ -1487,9 +1487,9 @@ function Contact() {
 							icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FaPhoneAlt, {}),
 							title: "Phone Number",
 							lines: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "tel:06804056220",
+								href: "tel:8018517617",
 								className: "hover:text-medblue hover:underline transition-colors",
-								children: "0680-4056220"
+								children: "+91 80185 17617"
 							})]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(InfoCard, {
@@ -1558,7 +1558,7 @@ Email: ${form.email || "N/A"}
 Treatment: ${form.treatment}
 Preferred Date: ${form.date}
 Message: ${form.message || "N/A"}`;
-		const whatsappUrl = `https://wa.me/916804056220?text=${encodeURIComponent(messageText)}`;
+		const whatsappUrl = `https://wa.me/918018517617?text=${encodeURIComponent(messageText)}`;
 		window.open(whatsappUrl, "_blank");
 		setSuccess(true);
 		setForm({
@@ -1611,7 +1611,7 @@ Message: ${form.message || "N/A"}`;
 						label: "Phone",
 						value: form.phone,
 						onChange: set("phone"),
-						placeholder: "0680-4056220",
+						placeholder: "+91 80185 17617",
 						required: true
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Field, {

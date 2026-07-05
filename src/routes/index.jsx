@@ -40,43 +40,43 @@ function Home() {
     block: "start"
   });
   return <>
-      <AnimatePresence>
-        {loading && <motion.div exit={{
+    <AnimatePresence>
+      {loading && <motion.div exit={{
         opacity: 0
       }} transition={{
         duration: 0.4
       }} className="fixed inset-0 z-[100] grid place-items-center bg-background">
-            <motion.div animate={{
+        <motion.div animate={{
           scale: [1, 1.15, 1]
         }} transition={{
           duration: 1.6,
           repeat: Infinity
         }} className="flex h-24 w-24 items-center justify-center rounded-3xl bg-white p-3 shadow-soft border border-border">
-              <img src="/logo dr chinmay.png" alt="Logo" className="h-full w-full object-contain" />
-            </motion.div>
-          </motion.div>}
-      </AnimatePresence>
+          <img src="/logo dr chinmay.png" alt="Logo" className="h-full w-full object-contain" />
+        </motion.div>
+      </motion.div>}
+    </AnimatePresence>
 
-      <AnnouncementBar />
-      <ScrollProgress />
-      <Navbar onBook={scrollToBook} />
-      <main>
-        <Hero onBook={scrollToBook} />
-        <TrustBadges />
-        <About />
-        <Team />
-        <Treatments />
-        <WhyChooseUs />
-        <Process />
-        <BeforeAfter />
-        <Testimonials />
-        <Gallery />
-        <FAQ />
-        <Contact />
-        <AppointmentSection formRef={bookRef} />
-      </main>
-      <Footer />
-      <ScrollTop />
-      <WhatsappFab />
-    </>;
+    <AnnouncementBar />
+    <ScrollProgress />
+    <Navbar onBook={scrollToBook} />
+    <main>
+      <Hero onBook={scrollToBook} />
+      <TrustBadges />
+      <About />
+      <Team />
+      <Treatments />
+      <WhyChooseUs />
+      <Process />
+      <BeforeAfter />
+      <Testimonials />
+      <Gallery />
+      <FAQ />
+      <Contact />
+      <AppointmentSection formRef={bookRef} />
+    </main>
+    <Footer />
+    <ScrollTop />
+    <WhatsappFab />
+  </>;
 }

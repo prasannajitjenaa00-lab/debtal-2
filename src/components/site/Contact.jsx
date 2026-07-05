@@ -10,7 +10,7 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="grid sm:grid-cols-2 gap-4 content-start">
             <InfoCard icon={<FaMapMarkerAlt />} title="Clinic Address" lines={["Infront of Suzuki Showroom,", "Gajapati Nagar St, Baidyanath Nagar,", "Ayodhya Nagar, Brahmapur,", "Odisha 760010"]} />
-            <InfoCard icon={<FaPhoneAlt />} title="Phone Number" lines={[<a href="tel:06804056220" className="hover:text-medblue hover:underline transition-colors">0680-4056220</a>]} />
+            <InfoCard icon={<FaPhoneAlt />} title="Phone Number" lines={[<a href="tel:8018517617" className="hover:text-medblue hover:underline transition-colors">+91 80185 17617</a>]} />
             <InfoCard icon={<FaEnvelope />} title="Email" lines={["care@smilecare.in", "appointments@smilecare.in"]} />
             <InfoCard icon={<FaClock />} title="Working Hours" lines={["Mon – Sat: 9AM – 9PM", "Sun: 10AM – 4PM"]} />
           </div>
@@ -59,7 +59,7 @@ Treatment: ${form.treatment}
 Preferred Date: ${form.date}
 Message: ${form.message || "N/A"}`;
 
-    const whatsappUrl = `https://wa.me/916804056220?text=${encodeURIComponent(messageText)}`;
+    const whatsappUrl = `https://wa.me/918018517617?text=${encodeURIComponent(messageText)}`;
     window.open(whatsappUrl, "_blank");
 
     setSuccess(true);
@@ -89,7 +89,7 @@ Message: ${form.message || "N/A"}`;
         once: true
       }} onSubmit={onSubmit} className="rounded-3xl bg-background/90 backdrop-blur border border-border p-6 sm:p-10 shadow-soft grid sm:grid-cols-2 gap-4">
           <Field label="Full Name" value={form.name} onChange={set("name")} placeholder="Jane Doe" required />
-          <Field label="Phone" value={form.phone} onChange={set("phone")} placeholder="0680-4056220" required />
+          <Field label="Phone" value={form.phone} onChange={set("phone")} placeholder="+91 80185 17617" required />
           <Field label="Email" type="email" value={form.email} onChange={set("email")} placeholder="you@example.com" />
           <div className="flex flex-col gap-1.5">
             <label className="text-sm font-semibold">Treatment</label>
