@@ -15,13 +15,13 @@ export function About() {
         duration: 0.6
       }} className="relative">
           <div className="relative rounded-3xl overflow-hidden shadow-soft border border-border">
-            <img src="/Dr.chinmaya.png" alt="Dr. Chinmaya Subudhi" loading="lazy" className="w-full h-[520px] object-cover" />
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 text-white">
+            <img src="/Dr.chinmaya.png" alt="Dr. Nidhi Singh" loading="lazy" className="w-full h-[520px] object-cover" />
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 pr-44 text-white">
               <div className="text-sm opacity-90">Chief Dental Surgeon</div>
-              <div className="text-2xl font-bold">Dr. Chinmaya Subudhi</div>
+              <div className="text-2xl font-bold">Dr. Nidhi Singh</div>
             </div>
           </div>
-          <div className="absolute -bottom-6 -right-4 sm:-right-8 rounded-2xl bg-background shadow-soft border border-border p-4 flex items-center gap-3">
+          <div className="absolute -bottom-16 -right-4 sm:-right-8 rounded-2xl bg-background shadow-soft border border-border p-4 flex items-center gap-3">
             <span className="grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br from-medblue to-teal text-white">
               <FaAward className="text-xl" />
             </span>
@@ -47,12 +47,12 @@ export function About() {
             <FaUserMd /> About the Doctor
           </div>
           <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
-            Meet <span className="text-gradient">Dr. Chinmaya Subudhi</span> — Your Trusted Smile Partner
+            Meet <span className="text-gradient">Dr. Nidhi Singh</span> — Your Trusted Smile Partner
           </h2>
           <p className="mt-5 text-muted-foreground text-lg">
             With over a decade of experience across cosmetic, restorative, and pediatric dentistry,
-            Dr. Subudhi blends clinical excellence with warm bedside manner. His patient-first
-            philosophy has made The ODontologist - Smile Makers one of the most trusted clinics in the region.
+            Dr. Singh blends clinical excellence with warm bedside manner. His patient-first
+            philosophy has made Star Dental Care one of the most trusted clinics in the region.
           </p>
 
           <div className="mt-6 grid sm:grid-cols-2 gap-4">

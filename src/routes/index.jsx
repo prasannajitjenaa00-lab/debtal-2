@@ -15,10 +15,10 @@ import { TrustBadges } from "@/components/site/TrustBadges";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
-      title: "The ODontologist - Smile Makers — Healthy Smiles Begin Here"
+      title: "Star Dental Care — Healthy Smiles Begin Here"
     }, {
       name: "description",
-      content: "Premium dental care with modern technology and gentle treatment. Book your visit at The ODontologist - Smile Makers — implants, aligners, whitening & more."
+      content: "Premium dental care with modern technology and gentle treatment. Book your visit at Star Dental Care — implants, aligners, whitening & more."
     }]
   }),
   component: Home

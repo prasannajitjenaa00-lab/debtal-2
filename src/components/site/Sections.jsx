@@ -53,7 +53,7 @@ export function Treatments() {
 export function WhyChooseUs() {
   return <section id="why" className="py-20 lg:py-28 bg-background">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <SectionHeader eyebrow="Why Choose Us" title={<>The <span className="text-gradient">ODontologist</span> Difference</>} subtitle="Everything we do is designed around your comfort, your safety, and your smile." />
+        <SectionHeader eyebrow="Why Choose Us" title={<>The <span className="text-gradient">Star Dental Care</span> Difference</>} subtitle="Everything we do is designed around your comfort, your safety, and your smile." />
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
           {whyChooseUs.map((w, i) => <motion.div key={w.title} initial={{
           opacity: 0,

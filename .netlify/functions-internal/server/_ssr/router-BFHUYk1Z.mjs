@@ -2,10 +2,10 @@ import { o as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { _ as useRouter, c as HeadContent, d as Outlet, f as lazyRouteComponent, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-BIfGnqic.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BFHUYk1Z.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-B912mWwL.css";
+var styles_default = "/assets/styles-DxqXJ_MD.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -94,22 +94,22 @@ var Route$1 = createRootRouteWithContext()({
 				name: "viewport",
 				content: "width=device-width, initial-scale=1"
 			},
-			{ title: "The ODontologist - Smile Makers — Modern & Compassionate Dentistry" },
+			{ title: "Star Dental Care — Modern & Compassionate Dentistry" },
 			{
 				name: "description",
-				content: "The ODontologist - Smile Makers provides premium dental care with advanced technology, gentle treatment, and expert doctors. Book your appointment today."
+				content: "Star Dental Care provides premium dental care with advanced technology, gentle treatment, and expert doctors. Book your appointment today."
 			},
 			{
 				name: "author",
-				content: "The ODontologist - Smile Makers"
+				content: "Star Dental Care"
 			},
 			{
 				property: "og:title",
-				content: "The ODontologist - Smile Makers — Healthy Smiles Begin Here"
+				content: "Star Dental Care — Healthy Smiles Begin Here"
 			},
 			{
 				property: "og:description",
-				content: "Advanced dental care with modern technology and compassionate treatment. Serving 500+ happy patients."
+				content: "Advanced dental care with modern technology and compassionate treatment."
 			},
 			{
 				property: "og:type",
@@ -158,11 +158,11 @@ function RootComponent() {
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {})
 	});
 }
-var $$splitComponentImporter = () => import("./routes-Ct1SdUmN.mjs");
+var $$splitComponentImporter = () => import("./routes-CLNtqWSY.mjs");
 var rootRouteChildren = { IndexRoute: createFileRoute("/")({
-	head: () => ({ meta: [{ title: "The ODontologist - Smile Makers — Healthy Smiles Begin Here" }, {
+	head: () => ({ meta: [{ title: "Star Dental Care — Healthy Smiles Begin Here" }, {
 		name: "description",
-		content: "Premium dental care with modern technology and gentle treatment. Book your visit at The ODontologist - Smile Makers — implants, aligners, whitening & more."
+		content: "Premium dental care with modern technology and gentle treatment. Book your visit at Star Dental Care — implants, aligners, whitening & more."
 	}] }),
 	component: lazyRouteComponent($$splitComponentImporter, "component")
 }).update({

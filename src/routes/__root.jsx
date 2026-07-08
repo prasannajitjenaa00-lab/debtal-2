@@ -60,19 +60,19 @@ export const Route = createRootRouteWithContext()({
       name: "viewport",
       content: "width=device-width, initial-scale=1"
     }, {
-      title: "The ODontologist - Smile Makers — Modern & Compassionate Dentistry"
+      title: "Star Dental Care — Modern & Compassionate Dentistry"
     }, {
       name: "description",
-      content: "The ODontologist - Smile Makers provides premium dental care with advanced technology, gentle treatment, and expert doctors. Book your appointment today."
+      content: "Star Dental Care provides premium dental care with advanced technology, gentle treatment, and expert doctors. Book your appointment today."
     }, {
       name: "author",
-      content: "The ODontologist - Smile Makers"
+      content: "Star Dental Care"
     }, {
       property: "og:title",
-      content: "The ODontologist - Smile Makers — Healthy Smiles Begin Here"
+      content: "Star Dental Care — Healthy Smiles Begin Here"
     }, {
       property: "og:description",
-      content: "Advanced dental care with modern technology and compassionate treatment. Serving 500+ happy patients."
+      content: "Advanced dental care with modern technology and compassionate treatment."
     }, {
       property: "og:type",
       content: "website"

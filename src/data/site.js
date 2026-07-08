@@ -188,7 +188,7 @@ export const testimonials = [{
 export const gallery = ["https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=900&q=80", "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80", "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=900&q=80", "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80", "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=900&q=80", "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=900&q=80", "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=900&q=80", "https://images.unsplash.com/photo-1616391182219-e080b4d1043a?w=900&q=80"];
 export const faqs = [{
   q: "Is Root Canal Painful?",
-  a: "Not anymore. With modern rotary endodontics and effective local anesthesia, a root canal at The ODontologist - Smile Makers feels no different from a regular filling. Most patients report zero discomfort during and after treatment."
+  a: "Not anymore. With modern rotary endodontics and effective local anesthesia, a root canal at Star Dental Care feels no different from a regular filling. Most patients report zero discomfort during and after treatment."
 }, {
   q: "How Often Should I Visit?",
   a: "We recommend a professional cleaning and check-up every 6 months. Regular visits help detect issues early and keep your teeth and gums in optimal health."
@@ -203,7 +203,7 @@ export const faqs = [{
   a: "Yes. We offer 24/7 emergency dental care. Simply call our helpline or WhatsApp us and our on-call dentist will attend to you as soon as possible."
 }];
 export const doctors = [{
-  name: "Dr. Chinmaya Subudhi",
+  name: "Dr. Nidhi Singh",
   title: "Chief Dental Surgeon & Founder",
   image: "/Dr.chinmaya.png",
   qualifications: "BDS",
@@ -275,4 +275,4 @@ export const navLinks = [{
   label: "Contact",
   href: "#contact"
 }];
-export const WHATSAPP_URL = "https://wa.me/918018517617?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment.";
+export const WHATSAPP_URL = "https://wa.me/917633863430?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment.";

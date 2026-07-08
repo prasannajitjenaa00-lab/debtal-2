@@ -5,7 +5,7 @@ import { a as AnimatePresence, i as motion, n as useSpring, r as useScroll, t as
 import { t as require_aos } from "../_libs/aos.mjs";
 import { i as SwiperSlide, n as Pagination, r as Swiper, t as Autoplay } from "../_libs/swiper.mjs";
 import { t as Lightbox } from "../_libs/yet-another-react-lightbox.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-Ct1SdUmN.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-CLNtqWSY.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
@@ -250,7 +250,7 @@ var gallery = [
 var faqs = [
 	{
 		q: "Is Root Canal Painful?",
-		a: "Not anymore. With modern rotary endodontics and effective local anesthesia, a root canal at The ODontologist - Smile Makers feels no different from a regular filling. Most patients report zero discomfort during and after treatment."
+		a: "Not anymore. With modern rotary endodontics and effective local anesthesia, a root canal at Star Dental Care feels no different from a regular filling. Most patients report zero discomfort during and after treatment."
 	},
 	{
 		q: "How Often Should I Visit?",
@@ -271,7 +271,7 @@ var faqs = [
 ];
 var doctors = [
 	{
-		name: "Dr. Chinmaya Subudhi",
+		name: "Dr. Nidhi Singh",
 		title: "Chief Dental Surgeon & Founder",
 		image: "/Dr.chinmaya.png",
 		qualifications: "BDS",
@@ -363,7 +363,7 @@ var navLinks = [
 		href: "#contact"
 	}
 ];
-var WHATSAPP_URL = "https://wa.me/918018517617?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment.";
+var WHATSAPP_URL = "https://wa.me/917633863430?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment.";
 function Navbar({ onBook }) {
 	const [open, setOpen] = (0, import_react.useState)(false);
 	const [scrolled, setScrolled] = (0, import_react.useState)(false);
@@ -392,15 +392,15 @@ function Navbar({ onBook }) {
 						className: "flex items-center gap-3 font-bold text-lg shrink-0",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: "/logo dr chinmay.png",
-							alt: "The ODontologist - Smile Makers",
+							alt: "Star Dental Care",
 							className: "h-14 w-auto object-contain"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 							className: "hidden sm:block leading-none text-left",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 								className: "block text-base font-extrabold text-foreground",
-								children: ["The ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								children: ["Star ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "text-gradient",
-									children: "ODontologist"
+									children: "Dental Care"
 								})]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 								className: "block text-[9px] tracking-wider text-muted-foreground font-semibold mt-0.5",
@@ -537,9 +537,9 @@ function AnnouncementBar() {
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "flex items-center gap-5 flex-wrap",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-					href: "tel:8018517617",
+					href: "tel:07633863430",
 					className: "inline-flex items-center gap-1.5 font-medium hover:underline",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FaPhoneAlt, { className: "text-[10px] opacity-80" }), "+91 80185 17617"]
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FaPhoneAlt, { className: "text-[10px] opacity-80" }), "076338 63430"]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 					className: "hidden sm:inline-flex items-center gap-1.5 opacity-90",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FaClock, { className: "text-[10px]" }), "Mon – Sat: 9AM – 9PM"]
@@ -822,17 +822,17 @@ function About() {
 					className: "relative rounded-3xl overflow-hidden shadow-soft border border-border",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 						src: "/Dr.chinmaya.png",
-						alt: "Dr. Chinmaya Subudhi",
+						alt: "Dr. Nidhi Singh",
 						loading: "lazy",
 						className: "w-full h-[520px] object-cover"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 text-white",
+						className: "absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 pr-44 text-white",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "text-sm opacity-90",
 							children: "Chief Dental Surgeon"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "text-2xl font-bold",
-							children: "Dr. Chinmaya Subudhi"
+							children: "Dr. Nidhi Singh"
 						})]
 					})]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -871,14 +871,14 @@ function About() {
 							"Meet ",
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 								className: "text-gradient",
-								children: "Dr. Chinmaya Subudhi"
+								children: "Dr. Nidhi Singh"
 							}),
 							" — Your Trusted Smile Partner"
 						]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "mt-5 text-muted-foreground text-lg",
-						children: "With over a decade of experience across cosmetic, restorative, and pediatric dentistry, Dr. Subudhi blends clinical excellence with warm bedside manner. His patient-first philosophy has made The ODontologist - Smile Makers one of the most trusted clinics in the region."
+						children: "With over a decade of experience across cosmetic, restorative, and pediatric dentistry, Dr. Singh blends clinical excellence with warm bedside manner. His patient-first philosophy has made Star Dental Care one of the most trusted clinics in the region."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "mt-6 grid sm:grid-cols-2 gap-4",
@@ -1041,7 +1041,7 @@ function WhyChooseUs() {
 					"The ",
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 						className: "text-gradient",
-						children: "ODontologist"
+						children: "Star Dental Care"
 					}),
 					" Difference"
 				] }),
@@ -1477,19 +1477,19 @@ function Contact() {
 							icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FaMapMarkerAlt, {}),
 							title: "Clinic Address",
 							lines: [
-								"Infront of Suzuki Showroom,",
-								"Gajapati Nagar St, Baidyanath Nagar,",
-								"Ayodhya Nagar, Brahmapur,",
-								"Odisha 760010"
+								"Ground Floor, CMC Building,",
+								"Kali Asthan, Navaratan Bazar,",
+								"Laxkariganj, Sasaram,",
+								"Bihar 821115"
 							]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(InfoCard, {
 							icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FaPhoneAlt, {}),
 							title: "Phone Number",
 							lines: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "tel:8018517617",
+								href: "tel:07633863430",
 								className: "hover:text-medblue hover:underline transition-colors",
-								children: "+91 80185 17617"
+								children: "076338 63430"
 							})]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(InfoCard, {
@@ -1507,7 +1507,7 @@ function Contact() {
 					className: "rounded-3xl overflow-hidden shadow-soft border border-border h-[420px] lg:h-full min-h-[420px]",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("iframe", {
 						title: "Clinic location",
-						src: "https://maps.google.com/maps?q=The%20ODontologist%20-%20Smile%20Makers,%20Brahmapur,%20Odisha%20760010&t=&z=16&ie=UTF8&iwloc=&output=embed",
+						src: "https://maps.google.com/maps?q=Star%20Dental%20Care,%20Sasaram,%20Bihar%20821115&t=&z=16&ie=UTF8&iwloc=&output=embed",
 						width: "100%",
 						height: "100%",
 						loading: "lazy",
@@ -1550,7 +1550,7 @@ function AppointmentSection({ formRef }) {
 	});
 	const onSubmit = (e) => {
 		e.preventDefault();
-		const messageText = `Hello Doctor, I would like to book an appointment at The ODontologist - Smile Makers.
+		const messageText = `Hello Doctor, I would like to book an appointment at Star Dental Care.
 
 Name: ${form.name}
 Phone: ${form.phone}
@@ -1558,7 +1558,7 @@ Email: ${form.email || "N/A"}
 Treatment: ${form.treatment}
 Preferred Date: ${form.date}
 Message: ${form.message || "N/A"}`;
-		const whatsappUrl = `https://wa.me/918018517617?text=${encodeURIComponent(messageText)}`;
+		const whatsappUrl = `https://wa.me/917633863430?text=${encodeURIComponent(messageText)}`;
 		window.open(whatsappUrl, "_blank");
 		setSuccess(true);
 		setForm({
@@ -1611,7 +1611,7 @@ Message: ${form.message || "N/A"}`;
 						label: "Phone",
 						value: form.phone,
 						onChange: set("phone"),
-						placeholder: "+91 80185 17617",
+						placeholder: "076338 63430",
 						required: true
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Field, {
@@ -1738,15 +1738,15 @@ function Footer() {
 						className: "flex items-center gap-3.5 font-bold text-xl",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: "/logo dr chinmay.png",
-							alt: "The ODontologist - Smile Makers",
+							alt: "Star Dental Care",
 							className: "h-16 w-auto object-contain bg-white rounded-2xl p-1.5"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "leading-tight text-white font-extrabold text-lg text-left",
 							children: [
-								"The ",
+								"Star ",
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "text-gradient",
-									children: "ODontologist"
+									children: "Dental Care"
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "block text-[10px] tracking-wider text-white/60 font-semibold mt-0.5",
@@ -1832,7 +1832,7 @@ function Footer() {
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
 				"© ",
 				(/* @__PURE__ */ new Date()).getFullYear(),
-				" The ODontologist - Smile Makers. All rights reserved."
+				" Star Dental Care. All rights reserved."
 			] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "flex gap-5",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {

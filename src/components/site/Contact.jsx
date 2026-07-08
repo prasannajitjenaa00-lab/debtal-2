@@ -9,13 +9,13 @@ export function Contact() {
         <SectionHeader eyebrow="Contact" title={<>Visit or <span className="text-gradient">Call Us</span></>} subtitle="We'd love to hear from you. Reach out anytime — we're here to help." />
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="grid sm:grid-cols-2 gap-4 content-start">
-            <InfoCard icon={<FaMapMarkerAlt />} title="Clinic Address" lines={["Infront of Suzuki Showroom,", "Gajapati Nagar St, Baidyanath Nagar,", "Ayodhya Nagar, Brahmapur,", "Odisha 760010"]} />
-            <InfoCard icon={<FaPhoneAlt />} title="Phone Number" lines={[<a href="tel:8018517617" className="hover:text-medblue hover:underline transition-colors">+91 80185 17617</a>]} />
+            <InfoCard icon={<FaMapMarkerAlt />} title="Clinic Address" lines={["Ground Floor, CMC Building,", "Kali Asthan, Navaratan Bazar,", "Laxkariganj, Sasaram,", "Bihar 821115"]} />
+            <InfoCard icon={<FaPhoneAlt />} title="Phone Number" lines={[<a href="tel:07633863430" className="hover:text-medblue hover:underline transition-colors">076338 63430</a>]} />
             <InfoCard icon={<FaEnvelope />} title="Email" lines={["care@smilecare.in", "appointments@smilecare.in"]} />
             <InfoCard icon={<FaClock />} title="Working Hours" lines={["Mon – Sat: 9AM – 9PM", "Sun: 10AM – 4PM"]} />
           </div>
           <div className="rounded-3xl overflow-hidden shadow-soft border border-border h-[420px] lg:h-full min-h-[420px]">
-            <iframe title="Clinic location" src="https://maps.google.com/maps?q=The%20ODontologist%20-%20Smile%20Makers,%20Brahmapur,%20Odisha%20760010&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" loading="lazy" className="border-0" allowFullScreen />
+            <iframe title="Clinic location" src="https://maps.google.com/maps?q=Star%20Dental%20Care,%20Sasaram,%20Bihar%20821115&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" loading="lazy" className="border-0" allowFullScreen />
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ export function AppointmentSection({
   });
   const onSubmit = e => {
     e.preventDefault();
-    const messageText = `Hello Doctor, I would like to book an appointment at The ODontologist - Smile Makers.
+    const messageText = `Hello Doctor, I would like to book an appointment at Star Dental Care.
 
 Name: ${form.name}
 Phone: ${form.phone}
@@ -59,7 +59,7 @@ Treatment: ${form.treatment}
 Preferred Date: ${form.date}
 Message: ${form.message || "N/A"}`;
 
-    const whatsappUrl = `https://wa.me/918018517617?text=${encodeURIComponent(messageText)}`;
+    const whatsappUrl = `https://wa.me/917633863430?text=${encodeURIComponent(messageText)}`;
     window.open(whatsappUrl, "_blank");
 
     setSuccess(true);
@@ -89,7 +89,7 @@ Message: ${form.message || "N/A"}`;
         once: true
       }} onSubmit={onSubmit} className="rounded-3xl bg-background/90 backdrop-blur border border-border p-6 sm:p-10 shadow-soft grid sm:grid-cols-2 gap-4">
           <Field label="Full Name" value={form.name} onChange={set("name")} placeholder="Jane Doe" required />
-          <Field label="Phone" value={form.phone} onChange={set("phone")} placeholder="+91 80185 17617" required />
+          <Field label="Phone" value={form.phone} onChange={set("phone")} placeholder="076338 63430" required />
           <Field label="Email" type="email" value={form.email} onChange={set("email")} placeholder="you@example.com" />
           <div className="flex flex-col gap-1.5">
             <label className="text-sm font-semibold">Treatment</label>
@@ -162,9 +162,9 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <div className="flex items-center gap-3.5 font-bold text-xl">
-            <img src="/logo dr chinmay.png" alt="The ODontologist - Smile Makers" className="h-16 w-auto object-contain bg-white rounded-2xl p-1.5" />
+            <img src="/logo dr chinmay.png" alt="Star Dental Care" className="h-16 w-auto object-contain bg-white rounded-2xl p-1.5" />
             <div className="leading-tight text-white font-extrabold text-lg text-left">
-              The <span className="text-gradient">ODontologist</span>
+              Star <span className="text-gradient">Dental Care</span>
               <span className="block text-[10px] tracking-wider text-white/60 font-semibold mt-0.5">SMILE MAKERS</span>
             </div>
           </div>
@@ -206,7 +206,7 @@ export function Footer() {
       </div>
 
       <div className="mt-12 border-t border-white/10 pt-6 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-background/60">
-        <div>© {new Date().getFullYear()} The ODontologist - Smile Makers. All rights reserved.</div>
+        <div>© {new Date().getFullYear()} Star Dental Care. All rights reserved.</div>
         <div className="flex gap-5">
           <a href="#" className="hover:text-white">Privacy Policy</a>
           <a href="#" className="hover:text-white">Terms</a>

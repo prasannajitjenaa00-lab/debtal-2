@@ -27,9 +27,9 @@ export function Navbar({
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-18 items-center justify-between py-3">
           <a href="#home" className="flex items-center gap-3 font-bold text-lg shrink-0">
-            <img src="/logo dr chinmay.png" alt="The ODontologist - Smile Makers" className="h-14 w-auto object-contain" />
+            <img src="/logo dr chinmay.png" alt="Star Dental Care" className="h-14 w-auto object-contain" />
             <span className="hidden sm:block leading-none text-left">
-              <span className="block text-base font-extrabold text-foreground">The <span className="text-gradient">ODontologist</span></span>
+              <span className="block text-base font-extrabold text-foreground">Star <span className="text-gradient">Dental Care</span></span>
               <span className="block text-[9px] tracking-wider text-muted-foreground font-semibold mt-0.5">SMILE MAKERS</span>
             </span>
           </a>
